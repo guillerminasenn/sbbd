@@ -1,0 +1,59 @@
+src
+├── classes
+│   ├── circulant.py
+│   ├── covariance.py
+│   ├── gaussian.py
+│   ├── __init__.py
+│   ├── lattice.py
+│   ├── mcmc_check.py
+│   └── model.py
+├── __init__.py
+├── mcmc
+│   ├── adapt.py
+│   ├── collapsedhmc
+│   │   ├── cyclic
+│   │   │   ├── collapsed_hmc_cyclic.py
+│   │   │   ├── efficient
+│   │   │   │   ├── derivatives.py
+│   │   │   │   ├── efficient_utils.py
+│   │   │   │   ├── gradient_potential.py
+│   │   │   │   └── potential.py
+│   │   │   ├── step_collapsed_hmc_cyclic.py
+│   │   │   ├── traditional
+│   │   │   │   └── gradient_potential.py
+│   │   │   └── utils.py
+│   │   ├── euclidean
+│   │   │   ├── collapsed_hmc_euclidean.py
+│   │   │   ├── efficient
+│   │   │   │   ├── derivatives.py
+│   │   │   │   ├── gradient_potential.py
+│   │   │   │   └── potential.py
+│   │   │   ├── step_collapsed_hmc_euclidean.py
+│   │   │   ├── traditional
+│   │   │   │   ├── derivatives.py
+│   │   │   │   ├── gradient_potential.py
+│   │   │   │   └── potential.py
+│   │   │   └── utils.py
+│   │   ├── run_collapsed_hmc.py
+│   │   └── topology_dispatch.py
+│   ├── collapsedhmc_within_gibbs
+│   ├── derivs.py
+│   ├── gibbs
+│   │   └── gibbs.py
+│   ├── hmc
+│   │   ├── hmc.py
+│   │   └── hmc_utils.py
+│   ├── mcmc.py
+│   ├── mcmc_utils.py
+│   ├── mess
+│   │   └── mess.py
+│   ├── mpcn
+│   │   └── mpcn.py
+│   └── pcn
+│       ├── pcn.py
+│       ├── run_pcn.py
+│       └── step_pcn.py
+└── utils
+    ├── efficient_algebra_utils.py
+    ├── exception_logger.py
+    ├── file_utils.py
