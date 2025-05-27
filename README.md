@@ -9,4 +9,4 @@ Scalable MCMC methods for Bayesian Blind Deconvolution
 
 ## References:
 
-[Scalable Bayesian seismic wavelet estimation]("https://onlinelibrary.wiley.com/share/author/QXGPRTZ4FAWCH9HSPPEN?target=10.1111/1365-2478.70026")
+[Scalable Bayesian seismic wavelet estimation]([https://onlinelibrary.wiley.com/share/author/QXGPRTZ4FAWCH9HSPPEN?target=10.1111/1365-2478.70026])
